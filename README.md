@@ -7,3 +7,6 @@ React Ajax Weather is a simple application fetching weather data by cities from 
 $ npm install 
 $ gulp
 ```
+
+## Weather API
+to get your weather API key, register [here](http://openweathermap.org/api) 
