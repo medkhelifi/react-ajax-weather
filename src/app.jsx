@@ -68,6 +68,7 @@ var Weather = new React.createClass({
     handleClick: function() {
         var input = this.refs.myInput;
         var inputValue = input.value;
+        //If the city is already exist we ignore it
         if(cities.indexOf(inputValue) == -1){
             Api.get(inputValue)
                 .then(function (data) {
