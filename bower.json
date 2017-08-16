@@ -1,0 +1,19 @@
+{
+  "name": "tmw-test",
+  "version": "0.0.0",
+  "authors": [
+    "Joan Mira <joanmira@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "weather-icons": "~2.0.10",
+    "bootstrap-sass-official": "~3.3.3"
+  }
+}
